@@ -1,0 +1,7 @@
+[root]
+O = "MongoDB"
+OU = "Certificate Authority"
+algorithm = "RSA"
+keylength = 2048
+# expiration in days
+expiry = 1000
