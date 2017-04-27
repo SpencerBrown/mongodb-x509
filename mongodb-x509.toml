@@ -1,7 +1,11 @@
-[root]
+[selfsigned]
 O = "MongoDB"
 OU = "Certificate Authority"
+CN = "somesillyname"
 algorithm = "RSA"
 keylength = 2048
 # expiration in days
 expiry = 1000
+# whether you want a password on the private key
+password = false
+isca = true
